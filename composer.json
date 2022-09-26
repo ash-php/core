@@ -1,0 +1,31 @@
+{
+  "name": "ash-php/core",
+  "description": "ash-php core component",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["php","ash-php","framework"],
+  "homepage": "https://github.com/ash-php",
+  "authors": [
+    {
+      "name": "chinayin",
+      "email": "whereismoney@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ash\\Core\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AshTests\\Core\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
